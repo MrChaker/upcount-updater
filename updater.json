@@ -1,7 +1,30 @@
 {
-  "version": "0.2.0",
-  "pub_date": "2020-09-18T12:29:53+01:00",
-  "url": "https://github.com/madisvain/upcount-tauri/releases/download/app-v0.1.0/upcount_0.1.0_amd64.AppImage",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVk5Id1IyNWFaZktON3FCNW5jOEN2M0UwTVZkNmFqTXlGZENxUVI2aXlSNWdIUVJucDNzY3BaSnNLam5uclNNWDZNQ3pLV3VDYmY5V05XYmVCOEFsUmdpdTZyV2JueHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzE1OTM5NTI1CWZpbGU6dXBjb3VudF8wLjEuMF9hbWQ2NC5BcHBJbWFnZS50YXIuZ3oKa0dCTDFNNWUvQ3NEbUprSXhFRDF6SThUcmVlU2VIWlhqakVZR05VVjlwMkU2N2ErUE96UEo5Y00ydEVObGN5ZmVxQ0FoZEo2a2FoeTc5TVZlQkNYRGc9PQo=",
-  "notes": "These are some release notes"
+  "linux-x86_64": {
+    "version": "0.2.0",
+    "pub_date": "2024-05-19T12:29:53+01:00",
+    "url": "https://github.com/madisvain/upcount-tauri/releases/download/app-v0.1.0/upcount_0.1.0_amd64.AppImage",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTVk5Id1IyNWFaZktON3FCNW5jOEN2M0UwTVZkNmFqTXlGZENxUVI2aXlSNWdIUVJucDNzY3BaSnNLam5uclNNWDZNQ3pLV3VDYmY5V05XYmVCOEFsUmdpdTZyV2JueHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzE1OTM5NTI1CWZpbGU6dXBjb3VudF8wLjEuMF9hbWQ2NC5BcHBJbWFnZS50YXIuZ3oKa0dCTDFNNWUvQ3NEbUprSXhFRDF6SThUcmVlU2VIWlhqakVZR05VVjlwMkU2N2ErUE96UEo5Y00ydEVObGN5ZmVxQ0FoZEo2a2FoeTc5TVZlQkNYRGc9PQo=",
+    "notes": "..."
+  },
+  "darwin-x86_64": {
+    "version": "0.2.0",
+    "pub_date": "2024-05-19T12:29:53+01:00",
+    "url": "https://github.com/madisvain/upcount-tauri/releases/download/app-v0.1.0/Upcount_x64.app.tar.gz",
+    "signature": "",
+    "notes": "..."
+  },
+  "darwin-aarch64": {
+    "version": "0.2.0",
+    "pub_date": "2024-05-19T12:29:53+01:00",
+    "url": "https://github.com/madisvain/upcount-tauri/releases/download/app-v0.1.0/Upcount_aarch64.app.tar.gz",
+    "signature": "",
+    "notes": "..."
+  },
+  "windows-x86_64": {
+    "version": "0.2.0",
+    "pub_date": "2024-05-19T12:29:53+01:00",
+    "url": "https://github.com/madisvain/upcount-tauri/releases/download/app-v0.1.0/Upcount_0.1.0_x64-setup.exe",
+    "signature": "",
+    "notes": "..."
+  }
 }
