@@ -1,6 +1,9 @@
 name: Handle All Release Events
 
-on: release
+
+on: 
+  workflow_dispatch:
+  release:
 
 jobs:
   create-new-file:
