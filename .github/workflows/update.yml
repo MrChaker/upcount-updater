@@ -1,0 +1,35 @@
+name: Create New File in Release Assets
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  create-new-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create new file
+        run: |
+          # Define the strings to replace (if needed)
+          s1="lab770/web2app"
+          s2="MrChaker/upcount-updater"
+
+          # Create a new file (e.g., new_latest.json)
+          echo '{"version": "${{ github.event.release.tag_name }}", "message": "This is a new file"}' > update.json
+
+          # Optionally, perform string replacement in the new file
+          sed -i "s/$s1/$s2/g" update.json
+
+      - name: Upload new file as a release asset
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./update.json
+          asset_name: update.json
+          asset_content_type: application/json
+
+     
