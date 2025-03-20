@@ -1,8 +1,6 @@
 name: Handle All Release Events
 
-on:
-  release:
-    types: [published, unpublished, created, edited, deleted, prereleased, released]
+on: release
 
 jobs:
   create-new-file:
